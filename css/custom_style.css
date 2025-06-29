@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #62FF54;
+    --secondary-color: #4DE85D;
+    --third-color: #61FF8F;
+    --fourth-color: #4DE894;
+    --fiveth-color: #61FFC5;
+    --bg-color: #1eab9d;
+  
+   
+  }
+  
+.logo {
+    color: var(--primary-color);
+}
+.logo:hover {
+    color: var(--third-color);
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+.text-secondary {
+    color: var(--secondary-color) !important;
+}
+
+.hero, .cta-section {
+    background-color: var(--bg-color) !important;
+}
+
+.sask_btn {
+    color:white !important;
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}
+
+.icon-bg {
+    background-color: var(--primary-color) !important;
+}
